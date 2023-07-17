@@ -1,5 +1,5 @@
-const db = require('./config/connection.js');
-const selectTask = require('./lib/selectTask.js');
+const db = require('./config/connection');
+const selectTask = require('./lib/selectTask');
 
 
 db.connect(function (err) {
