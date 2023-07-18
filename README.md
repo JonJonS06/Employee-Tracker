@@ -14,18 +14,20 @@ None
 
 ## Walkthrough Video
 
-Watch a [video] demonstration of the application functionality:
+Watch a [video](https://youtu.be/WBTLaWuhIFw) demonstration of the application functionality:
 
-![video]()
+## Screenshot
+
+![image](./assets/images/Screenshot%202023-07-18%20at%204.57.09%20PM.png)
 
 ## Installation
 
-1. Verify that node.js is installed on your local machine by typing "node -v" in the command line. If Node is not installed then you would need to first install it by visiting [node.js](https://node.js.org/en).
+1. Verify that node.js is installed on your local machine by typing "node -v" in the command line. If Node is not installed then you would need to first install it by visiting [node.js](https://node.js.org).
 2. Clone this repository to your local machine.
 3. Using the command line again, type "npm -i" to install the dependencies,
 4. Create a ".env" file in your root directory and type "PASSWORD='[YOUR PASSWORD HERE]'"
 5. Open Mysql using "mysql -u root -p" in the command line and enter your own password when prompted.
-6. Use "source schema.sql;" to create the database(employee_db). 
+6. Use "source schema.sql;" to create the database(employee_db).
 7. To seed the database use "source seed.sql;".
 8. Once these steps are completed type quit to close out of MySql.
 
@@ -42,4 +44,3 @@ Please direct any questions or recommendations to the following:
 GitHub [Jonathan Strickland](https://github.com/jonjons06)
 
 Email <jonjon1106@gmail.com>
-
